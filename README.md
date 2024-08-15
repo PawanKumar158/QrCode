@@ -1,2 +1,3 @@
 # QrCode
-Qr Generative 
+Qr code generation with Url
+
