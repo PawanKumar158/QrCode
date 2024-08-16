@@ -3,6 +3,6 @@
 import qrcode as qr
 from PIL import Image
 
-img = qr.make("https://www.google.com")
+img = qr.make("https://linktr.ee/pawankumar158")
 
-img.save("GoogleQr.png")
+img.save("MyLinkQr.png")
