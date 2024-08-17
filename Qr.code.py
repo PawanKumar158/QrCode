@@ -3,6 +3,9 @@
 import qrcode as qr
 from PIL import Image
 
-img = qr.make("https://linktr.ee/pawankumar158")
+# importing gui for take input by user
+import GuiQRCode
+
+img = qr.make(input_field)
 
 img.save("MyLinkQr.png")
